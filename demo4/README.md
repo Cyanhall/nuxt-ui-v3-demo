@@ -1,5 +1,9 @@
 # Nuxt UI v3 Bug Report Template
 
+**Issue**: The button styles in UModal body should not be affected by UButtonGroup.
+
+**Link:** https://github.com/nuxt/ui/issues/2978
+
 ##### Setup
 ```sh
 # Init

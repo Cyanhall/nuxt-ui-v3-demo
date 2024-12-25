@@ -4,7 +4,6 @@ const open = defineModel('open', { default: false })
 
 <template>
   <UButtonGroup>
-    
     <UModal
       :close="true"
       v-model:open="open"
