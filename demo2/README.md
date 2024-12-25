@@ -1,5 +1,9 @@
 # Nuxt UI v3 Bug Report Template
 
+**Issue**: Empty string in column header will cause Hydration console error
+
+**Link:** https://github.com/nuxt/ui/issues/2976
+
 ##### Setup
 ```sh
 # Init
