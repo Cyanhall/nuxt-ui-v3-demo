@@ -1,7 +1,8 @@
 # Nuxt UI v3 Bug Report Template
 
-Issue: using UDropdownMenu with H cause TS Lint error within helper function
-Link: https://github.com/nuxt/ui/issues/2968
+**Issue**: using UDropdownMenu with H cause TS Lint error within helper function
+
+**Link:** https://github.com/nuxt/ui/issues/2968
 
 ## Setup
 ```sh
