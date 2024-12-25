@@ -1,9 +1,5 @@
 # nuxt-ui-v3-demo
 
-a list of minial 
-
-A minimal reproduction
-
 a series of minimal reproduction repository for Nuxt UI v3.
 
 ##### Environment
