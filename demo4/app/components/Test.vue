@@ -4,24 +4,24 @@ const open = defineModel('open', { default: false })
 
 <template>
   <UButtonGroup>
-    <UButton
-      variant="outline"
-      color="neutral"
-      trailing-icon="i-lucide-pipette"
-      @click="open = true"
-    >
-     Button
-    </UButton>
+    
     <UModal
       :close="true"
       v-model:open="open"
       title="Test"
     >
+      <UButton
+        variant="outline"
+        color="neutral"
+        @click="open = true"
+      >
+       Modal Button
+      </UButton>
       <template #body>
         Body
       </template>
       <template #footer>
-        <div class="flex justify-end w-full gap-4">
+        <div class="flex justify-start w-full gap-4">
           <UButton
             variant="outline"
             class="rounded"
@@ -44,5 +44,12 @@ const open = defineModel('open', { default: false })
         </div>
       </template>
     </UModal>
+    <UButton
+      variant="outline"
+      color="neutral"
+      @click=""
+    >
+     Other Button
+    </UButton>
   </UButtonGroup>
 </template>
