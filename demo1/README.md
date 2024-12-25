@@ -1,42 +1,40 @@
 # Nuxt UI v3 Bug Report Template
 
-## Init
-```sh
-npx nuxi@latest init -t ui3 template
-```
+Issue: using UDropdownMenu with H cause TS Lint error within helper function
+Link: https://github.com/nuxt/ui/issues/2968
 
 ## Setup
+```sh
+# Init
+npx nuxi@latest init -t ui3 template
 
-Make sure to install the dependencies:
-
-```bash
-# pnpm
+# Setup
 pnpm install
-```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# pnpm
+# Development Server
 pnpm run dev
-```
+# Start the development server on `http://localhost:3000`:
 
-## Production
-
-Build the application for production:
-
-```bash
-# pnpm
+# Build
 pnpm run build
-```
 
-Locally preview production build:
-
-```bash
-# pnpm
+# Preview
 pnpm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+##### Environment
+```sh
+------------------------------
+- Operating System: Darwin
+- Node Version:     v20.10.0
+- Nuxt Version:     3.15.0
+- CLI Version:      3.17.2
+- Nitro Version:    2.10.4
+- Package Manager:  pnpm@9.15.1
+- Builder:          -
+- User Config:      default
+- Runtime Modules:  @nuxt/ui@3.0.0-alpha.9, @nuxt/eslint@0.7.4
+- Build Modules:    -
+------------------------------
+```

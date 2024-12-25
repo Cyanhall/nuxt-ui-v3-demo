@@ -2,6 +2,26 @@
 
 a series of minimal reproduction repository for Nuxt UI v3.
 
+##### Setup
+```sh
+# Init
+npx nuxi@latest init -t ui3 template
+
+# Setup
+pnpm install
+
+# Development Server
+pnpm run dev
+# Start the development server on `http://localhost:3000`:
+
+# Build
+pnpm run build
+
+# Preview
+pnpm run preview
+```
+
+
 ##### Environment
 ```sh
 ------------------------------
