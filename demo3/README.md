@@ -1,5 +1,9 @@
 # Nuxt UI v3 Bug Report Template
 
+**Issue**: The placeholder in UInput within UModal does not display
+
+**Link:** https://github.com/nuxt/ui/issues/2977
+
 ##### Setup
 ```sh
 # Init
