@@ -8,3 +8,5 @@ a series of minimal reproduction repository for Nuxt UI v3.
     * [Reproduction](https://github.com/Cyanhall/nuxt-ui-v3-demo/tree/main/demo2)
 * [The placeholder in UInput within UModal does not display](https://github.com/nuxt/ui/issues/2977)
     * [Reproduction](https://github.com/Cyanhall/nuxt-ui-v3-demo/tree/main/demo3)
+* [The button styles in UModal body should not be affected by UButtonGroup.](https://github.com/nuxt/ui/issues/2978)
+    * [Reproduction](https://github.com/Cyanhall/nuxt-ui-v3-demo/tree/main/demo4)
