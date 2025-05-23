@@ -28,14 +28,14 @@ pnpm run preview
 ```sh
 ------------------------------
 - Operating System: Darwin
-- Node Version:     v20.10.0
-- Nuxt Version:     3.15.0
-- CLI Version:      3.17.2
-- Nitro Version:    2.10.4
-- Package Manager:  pnpm@9.15.1
+- Node Version:     v22.15.0
+- Nuxt Version:     3.17.4
+- CLI Version:      3.25.1
+- Nitro Version:    2.11.12
+- Package Manager:  pnpm@10.11.0
 - Builder:          -
-- User Config:      default
-- Runtime Modules:  @nuxt/ui@3.0.0-alpha.9, @nuxt/eslint@0.7.4
+- User Config:      devtools, modules, css, fonts, future, compatibilityDate
+- Runtime Modules:  @nuxt/ui@3.1.2, @nuxt/eslint@1.4.1
 - Build Modules:    -
 ------------------------------
 ```
