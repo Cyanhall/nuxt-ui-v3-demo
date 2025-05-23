@@ -38,12 +38,14 @@ function getRowItems(row: Row<any>) {
 </script>
 
 <template>
-  <UTable
-    ref="table"
-    :columns="columns"
-    :data="data"
-    sticky
-    size="sm"
-    class="max-h-[calc(100vh-140px)]"
-  />
+  <UApp>
+    <UTable
+      ref="table"
+      :columns="columns"
+      :data="data"
+      sticky
+      size="sm"
+      class="max-h-[calc(100vh-140px)]"
+    />
+  </UApp>
 </template>
